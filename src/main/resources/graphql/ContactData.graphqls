@@ -1,0 +1,5 @@
+type ContactData {
+    id: ID
+    value: String!
+    description: String!
+}

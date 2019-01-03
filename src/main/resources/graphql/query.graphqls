@@ -1,0 +1,4 @@
+type Query {
+    findAllPatients: [Patient]!
+    countPatients: Long!
+}

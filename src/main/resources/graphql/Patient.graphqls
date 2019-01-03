@@ -1,0 +1,9 @@
+type Patient {
+    id: ID,
+    firstName: String!
+    lastName: String!
+    sip: String!
+    birthDate: String!
+    notes: String
+    contactData: [ContactData]
+}

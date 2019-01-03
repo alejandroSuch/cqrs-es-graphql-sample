@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.grupoasv.patientmanagement.model.dto">
+    <class name="Address">
+        <component name="latLng" class="LatLng">
+            <property name="lat" type="double"></property>
+            <property name="lng" type="double"></property>
+        </component>
+        <component name="Notes">
+            <property name="value" type="text"></property>
+        </component>
+    </class>
+</hibernate-mapping>
+
+
+    <!-- String street;
+  String door;
+  String floor;
+  String block;
+  String stair;
+  String zip;
+  String locality;
+  String province;
+  String region;
+-->
